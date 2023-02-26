@@ -62,7 +62,7 @@ var Dev = new DevOps(); //Dependency Inversion Principle
 var Acc = new Accounts(); //Dependency Inversion Principle
 var Hr = new HumanResource(); //Dependency Inversion Principle
 
-console.log("Some ok Properties in different classes are: ");
+console.log("Some Common Properties in different classes are: ");
 console.log("Property of Interview: ");
 Dev.Interview(); //Polymorphism
 Hr.Interview();  //Polymorphism
